@@ -26,8 +26,8 @@ Powerful CD audio ripper for GNOME2.
 %description -l pl
 Potê¿ny ripper p³yt CD dla GNOME2.
 
-%prep 
-%setup -q 
+%prep
+%setup -q
 
 %build
 glib-gettextize --copy --force
@@ -36,7 +36,7 @@ intltoolize --copy --force
 %{__autoheader}
 %{__automake}
 %{__autoconf}
-%configure 
+%configure
 %{__make}
 
 %install
