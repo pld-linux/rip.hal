@@ -56,4 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS NEWS README TODO ChangeLog
 %attr(0755,root,root) %{_bindir}/*
 %{_pixmapsdir}/%{name}
-%{_datadir}/applications/*.desktop
+%{_desktopdir}/*.desktop
