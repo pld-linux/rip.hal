@@ -10,12 +10,13 @@ URL:		http://rip.hal.pl/
 Vendor:		Michal Zawalich <michuz@pld.org.pl>
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	libgnomeui-devel >= 2.0
-BuildRequires:	libghttp-devel
-BuildRequires:	libvorbis-devel
-BuildRequires:	libogg-devel
-BuildRequires:	lame-libs-devel
 BuildRequires:	cdparanoia-III-devel
+BuildRequires:	intltool
+BuildRequires:	lame-libs-devel
+BuildRequires:	libghttp-devel
+BuildRequires:	libgnomeui-devel >= 2.0
+BuildRequires:	libogg-devel
+BuildRequires:	libvorbis-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
