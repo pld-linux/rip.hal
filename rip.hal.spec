@@ -6,6 +6,7 @@ Release:	0
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://rip.hal.pl/%{name}-%{version}.tar.gz
+# Source0-md5:	70cb0075c856b9e957b77aa6c17db7df
 URL:		http://rip.hal.pl/
 Vendor:		Michal Zawalich <michuz@pld.org.pl>
 BuildRequires:	autoconf
