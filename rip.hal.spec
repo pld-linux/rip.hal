@@ -2,7 +2,7 @@ Summary:	Powerful CD audio ripper for GNOME2
 Summary(pl):	Potê¿ny ripper p³yt CD dla GNOME2
 Name:		rip.hal
 Version:	0.0.2
-Release:	0
+Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://rip.hal.pl/%{name}-%{version}.tar.gz
@@ -15,7 +15,7 @@ BuildRequires:	cdparanoia-III-devel
 BuildRequires:	intltool
 BuildRequires:	lame-libs-devel
 BuildRequires:	libghttp-devel
-BuildRequires:	libgnomeui-devel >= 2.0
+BuildRequires:	libgnomeui-devel >= 2.3.3.1-2
 BuildRequires:	libogg-devel
 BuildRequires:	libvorbis-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
