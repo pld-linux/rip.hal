@@ -4,11 +4,11 @@ Name:		rip.hal
 Version:	0.0.2
 Release:	1
 License:	GPL
+Vendor:		Michal Zawalich <michuz@pld.org.pl>
 Group:		X11/Applications/Multimedia
 Source0:	http://rip.hal.pl/%{name}-%{version}.tar.gz
 # Source0-md5:	70cb0075c856b9e957b77aa6c17db7df
 URL:		http://rip.hal.pl/
-Vendor:		Michal Zawalich <michuz@pld.org.pl>
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	cdparanoia-III-devel
