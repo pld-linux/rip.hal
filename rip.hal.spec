@@ -1,5 +1,5 @@
 Summary:	Powerful CD audio ripper for GNOME2
-Summary(pl.UTF-8):   Potężny ripper płyt CD dla GNOME2
+Summary(pl.UTF-8):	Potężny ripper płyt CD dla GNOME2
 Name:		rip.hal
 Version:	0.0.2
 Release:	1
